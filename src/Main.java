@@ -26,7 +26,6 @@ public class Main {
         }
 
         while (result && counter < array.length) {
-            System.out.println("еще крутит");
             if (array[counter].equals(s1)) {
                 if (!array[counter + 1].equals(s2)) {
                     result = false;
@@ -52,9 +51,7 @@ public class Main {
                     result = false;
                 }
             }
-            System.out.println("значение в этом круге-" + counter + " - " + result);
             counter += 2;
-            System.out.println("будут такие значение в следующем круге-" + counter + " - " + result);
         }
         System.out.println("результат: " + result);
     }
