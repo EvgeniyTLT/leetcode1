@@ -4,7 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Введите через пробел '(', ')', '{', '}', '[', ']'");
-        int counter = 0;
         Boolean result = true;
         String s1 = "(";
         String s2 = ")";
@@ -22,7 +21,6 @@ public class Main {
                 result = false;
             }
         }
-
         if (result) {
             System.out.println("Вы ввели: " + s);
             for (int i = 0; i < array.length - 1; i++) {
