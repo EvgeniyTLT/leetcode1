@@ -13,7 +13,7 @@ public class Main {
         String s6 = "]";
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
-        String[] array = s.split(" ");
+        String[] array = s.split("");
         for (String u : array) {
             if (!u.equals(s1) && !u.equals(s2) && !u.equals(s3) && !u.equals(s4) && !u.equals(s5) && !u.equals(s6)) {
                 System.out.println("направильный ввод");
